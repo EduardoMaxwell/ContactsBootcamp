@@ -38,7 +38,7 @@ class ContactAdapter(val contacts: ArrayList<Contact>) :
             Glide.with(itemView.context)
                 .load(contact.picture)
                 .circleCrop()
-                .placeholder(R.drawable.ic_baseline_person_24)
+                .placeholder(R.drawable.user)
                 .into(photo)
 
         }
